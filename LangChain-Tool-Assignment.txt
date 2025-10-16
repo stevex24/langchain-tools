@@ -1,0 +1,27 @@
+LangChain: Tool Use Assignment
+Author: Steve Cross
+Course: UCSC Game Research Lab
+
+Repository:
+https://github.com/stevex24/langchain-tools
+
+Summary:
+This project demonstrates LangChain tool binding and usage with two working examples:
+1. Multiply Tool – performs arithmetic multiplication by binding a custom tool to an LLM.
+2. Weather Tool – fetches real-time temperature data from the Open-Meteo API.
+
+Both examples verify tool invocation and integration with ChatOpenAI.  
+The console outputs confirm correct operation and tool calls.
+
+Example output:
+=== Example 1: Multiply Tool ===
+📣 multiply() called with: a=15, b=23
+Tool calls: [ { name: 'multiply', args: { a: 15, b: 23 } } ]
+Manual result: 345
+
+=== Example 2: Weather Tool ===
+🌤️ getWeather() called: lat=36.9741, lon=-122.0308
+Tool calls: [ { name: 'getWeather', args: { latitude: 36.9741, longitude: -122.0308 } } ]
+Manual result: The current temperature is 18°C.
+
+The full project, source code, and README are available in the GitHub repository linked above.
