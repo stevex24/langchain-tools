@@ -1,0 +1,16 @@
+{
+  "name": "langchain-tools",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "multiplyTool.js",
+  "scripts": {
+    "start": "node multiplyTool.js"
+  },
+  "dependencies": {
+    "@langchain/core": "^0.1.0",
+    "@langchain/openai": "^0.1.0",
+    "dotenv": "^16.0.0",
+    "node-fetch": "^3.3.2",
+    "zod": "^3.0.0"
+  }
+}
